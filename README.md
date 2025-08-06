@@ -1,69 +1,69 @@
 # 🎯 E-Trainer Mobile
 
-> **Interactive Flutter learning platform with Vietnamese interface and modern Material 3 design**
+> **Nền tảng học tập tương tác Flutter với giao diện tiếng Việt và thiết kế Material 3 hiện đại**
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.32.7-blue.svg)](https://flutter.dev/)
 [![Dart](https://img.shields.io/badge/Dart-3.5.0-blue.svg)](https://dart.dev/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)](#)
 
-## 📱 About E-Trainer
+## 📱 Giới thiệu E-Trainer
 
-E-Trainer is a comprehensive mobile learning platform built with Flutter, featuring an interactive journey-based learning system, Vietnamese interface, and modern Material 3 design. The app provides an engaging educational experience with animations, quizzes, and progress tracking.
+E-Trainer là một nền tảng học tập di động toàn diện được xây dựng bằng Flutter, có tính năng hệ thống học tập theo hành trình tương tác, giao diện tiếng Việt và thiết kế Material 3 hiện đại. Ứng dụng cung cấp trải nghiệm giáo dục hấp dẫn với hiệu ứng động, câu đố và theo dõi tiến độ.
 
-## ✨ Features
+## ✨ Tính năng
 
-### 🔐 **Authentication System**
-- Google Sign-in integration
-- Secure user authentication
-- Profile management
+### 🔐 **Hệ thống xác thực**
+- Tích hợp đăng nhập Google
+- Xác thực người dùng an toàn
+- Quản lý hồ sơ cá nhân
 
-### 🗺️ **Journey-Based Learning**
-- Interactive learning stages
-- Progress tracking system
-- Daily lesson recommendations
-- Stage completion rewards
+### 🗺️ **Học tập theo hành trình**
+- Các giai đoạn học tập tương tác
+- Hệ thống theo dõi tiến độ
+- Gợi ý bài học hàng ngày
+- Phần thưởng hoàn thành giai đoạn
 
-### 🧠 **Interactive Quizzes**
-- Timer-based quiz system
-- Real-time feedback
-- Multiple choice questions
-- Animated transitions
-- Performance analytics
+### 🧠 **Câu đố tương tác**
+- Hệ thống quiz có timer
+- Phản hồi thời gian thực
+- Câu hỏi trắc nghiệm
+- Hiệu ứng chuyển tiếp mượt mà
+- Phân tích hiệu suất
 
-### 🎨 **Modern UI/UX**
-- Material 3 design system
-- Vietnamese interface
-- Dark/Light theme support
-- Smooth animations and transitions
-- Responsive design
+### 🎨 **UI/UX hiện đại**
+- Hệ thống thiết kế Material 3
+- Giao diện tiếng Việt
+- Hỗ trợ chế độ tối/sáng
+- Hiệu ứng động và chuyển tiếp mượt mà
+- Thiết kế đáp ứng
 
-### 📊 **Practice Mode**
-- Shimmer loading effects
-- Comprehensive question bank
-- Immediate result feedback
-- Progress visualization
+### 📊 **Chế độ luyện tập**
+- Hiệu ứng loading shimmer
+- Ngân hàng câu hỏi toàn diện
+- Phản hồi kết quả ngay lập tức
+- Trực quan hóa tiến độ
 
-### 🔧 **Technical Features**
-- Offline support with Hive database
-- State management with Riverpod
-- Modern navigation with go_router
-- Firebase integration
-- Performance optimized (0 analysis issues)
+### 🔧 **Tính năng kỹ thuật**
+- Hỗ trợ offline với cơ sở dữ liệu Hive
+- Quản lý state với Riverpod
+- Điều hướng hiện đại với go_router
+- Tích hợp Firebase
+- Tối ưu hiệu suất (0 vấn đề phân tích)
 
-## 🛠️ Tech Stack
+## 🛠️ Công nghệ sử dụng
 
-| Technology | Purpose |
-|------------|---------|
-| **Flutter 3.32.7** | Cross-platform mobile framework |
-| **Dart 3.5.0** | Programming language |
-| **Riverpod 2.5.1** | State management |
-| **go_router 13.2.5** | Navigation and routing |
-| **Hive 2.2.3** | Local database for offline support |
-| **Firebase** | Authentication and backend services |
-| **Material 3** | Modern design system |
+| Công nghệ | Mục đích |
+|-----------|----------|
+| **Flutter 3.32.7** | Framework mobile đa nền tảng |
+| **Dart 3.5.0** | Ngôn ngữ lập trình |
+| **Riverpod 2.5.1** | Quản lý state |
+| **go_router 13.2.5** | Điều hướng và routing |
+| **Hive 2.2.3** | Cơ sở dữ liệu local cho hỗ trợ offline |
+| **Firebase** | Xác thực và dịch vụ backend |
+| **Material 3** | Hệ thống thiết kế hiện đại |
 
-## 📦 Dependencies
+## 📦 Thư viện phụ thuộc
 
 ```yaml
 dependencies:
@@ -78,47 +78,47 @@ dependencies:
   flutter_local_notifications: ^16.3.2
 ```
 
-## 🚀 Getting Started
+## 🚀 Bắt đầu
 
-### Prerequisites
-- Flutter SDK (3.32.7 or higher)
-- Dart SDK (3.5.0 or higher)
+### Yêu cầu hệ thống
+- Flutter SDK (3.32.7 trở lên)
+- Dart SDK (3.5.0 trở lên)
 - Android Studio / VS Code
-- Android SDK for Android development
-- Xcode for iOS development (macOS only)
+- Android SDK cho phát triển Android
+- Xcode cho phát triển iOS (chỉ macOS)
 
-### Installation
+### Cài đặt
 
-1. **Clone the repository**
+1. **Clone repository**
    ```bash
    git clone https://github.com/quytttb/etrainer-mobile.git
    cd etrainer-mobile
    ```
 
-2. **Install dependencies**
+2. **Cài đặt dependencies**
    ```bash
    flutter pub get
    ```
 
-3. **Generate Hive adapters**
+3. **Tạo Hive adapters**
    ```bash
    flutter packages pub run build_runner build
    ```
 
-4. **Configure Firebase** (Optional)
-   - Add your `google-services.json` (Android) and `GoogleService-Info.plist` (iOS)
-   - Update `firebase_options.dart` with your configuration
+4. **Cấu hình Firebase** (Tùy chọn)
+   - Thêm file `google-services.json` (Android) và `GoogleService-Info.plist` (iOS)
+   - Cập nhật `firebase_options.dart` với cấu hình của bạn
 
-5. **Run the app**
+5. **Chạy ứng dụng**
    ```bash
-   # Debug mode
+   # Chế độ debug
    flutter run
    
-   # Release mode
+   # Chế độ release
    flutter run --release
    ```
 
-## 📱 Build & Deploy
+## 📱 Build & Triển khai
 
 ### Android APK
 ```bash
@@ -135,75 +135,75 @@ flutter build apk --release
 flutter build ios --release
 ```
 
-## 📁 Project Structure
+## 📁 Cấu trúc dự án
 
 ```
 lib/
 ├── core/
-│   ├── constants/          # App constants and themes
+│   ├── constants/          # Hằng số ứng dụng và themes
 │   ├── providers/          # Global state providers
-│   ├── routing/            # Navigation and routing
-│   ├── services/           # Core services (API, Auth, etc.)
-│   └── themes/             # Material 3 theme configuration
+│   ├── routing/            # Điều hướng và routing
+│   ├── services/           # Dịch vụ cốt lõi (API, Auth, v.v.)
+│   └── themes/             # Cấu hình theme Material 3
 ├── data/
-│   └── models/             # Data models and Hive entities
+│   └── models/             # Models dữ liệu và Hive entities
 ├── presentation/
-│   ├── providers/          # Screen-specific providers
-│   ├── screens/            # UI screens
-│   └── widgets/            # Reusable UI components
-└── main.dart               # App entry point
+│   ├── providers/          # Providers riêng cho từng màn hình
+│   ├── screens/            # Các màn hình UI
+│   └── widgets/            # Components UI có thể tái sử dụng
+└── main.dart               # Điểm khởi đầu ứng dụng
 ```
 
-## 🎯 Key Features Implemented
+## 🎯 Tính năng chính đã triển khai
 
-- ✅ **Complete Authentication Flow** - Google Sign-in with Firebase
-- ✅ **Journey-Based Learning System** - Interactive stages and progress tracking
-- ✅ **Quiz System** - Timer-based quizzes with animations
-- ✅ **Practice Mode** - Comprehensive question practice
-- ✅ **Vietnamese Interface** - Full localization support
-- ✅ **Material 3 Design** - Modern UI with dark/light themes
-- ✅ **Offline Support** - Hive database for local storage
-- ✅ **Performance Optimized** - Zero analysis issues, production-ready
-- ✅ **Advanced Animations** - Smooth transitions and loading states
+- ✅ **Luồng xác thực hoàn chỉnh** - Đăng nhập Google với Firebase
+- ✅ **Hệ thống học tập theo hành trình** - Các giai đoạn tương tác và theo dõi tiến độ
+- ✅ **Hệ thống Quiz** - Quiz có timer với hiệu ứng động
+- ✅ **Chế độ luyện tập** - Luyện tập câu hỏi toàn diện
+- ✅ **Giao diện tiếng Việt** - Hỗ trợ bản địa hóa đầy đủ
+- ✅ **Thiết kế Material 3** - UI hiện đại với theme tối/sáng
+- ✅ **Hỗ trợ Offline** - Cơ sở dữ liệu Hive cho lưu trữ local
+- ✅ **Tối ưu hiệu suất** - Không có vấn đề phân tích, sẵn sàng production
+- ✅ **Hiệu ứng động nâng cao** - Chuyển tiếp mượt mà và trạng thái loading
 
-## 🔧 Configuration
+## 🔧 Cấu hình
 
-### Theme Customization
-Edit `lib/core/themes/app_theme.dart` to customize colors and styling.
+### Tùy chỉnh Theme
+Chỉnh sửa `lib/core/themes/app_theme.dart` để tùy chỉnh màu sắc và kiểu dáng.
 
-### Add New Screens
-1. Create screen in `lib/presentation/screens/`
-2. Add route in `lib/core/routing/app_router.dart`
-3. Update navigation logic
+### Thêm màn hình mới
+1. Tạo màn hình trong `lib/presentation/screens/`
+2. Thêm route trong `lib/core/routing/app_router.dart`
+3. Cập nhật logic điều hướng
 
-### Database Models
-1. Create model in `lib/data/models/`
-2. Add Hive annotations
-3. Run `flutter packages pub run build_runner build`
+### Models cơ sở dữ liệu
+1. Tạo model trong `lib/data/models/`
+2. Thêm Hive annotations
+3. Chạy `flutter packages pub run build_runner build`
 
-## 🤝 Contributing
+## 🤝 Đóng góp
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Fork repository
+2. Tạo feature branch (`git checkout -b feature/TinhNangTuyetVoi`)
+3. Commit các thay đổi (`git commit -m 'Thêm tính năng tuyệt vời'`)
+4. Push lên branch (`git push origin feature/TinhNangTuyetVoi`)
+5. Mở Pull Request
 
-## 📄 License
+## 📄 Giấy phép
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Dự án này được cấp phép theo giấy phép MIT - xem file [LICENSE](LICENSE) để biết chi tiết.
 
-## 👨‍💻 Developer
+## 👨‍💻 Nhà phát triển
 
 **Quý Trần** - [@quytttb](https://github.com/quytttb)
 
-## 🙏 Acknowledgments
+## 🙏 Lời cảm ơn
 
-- Flutter team for the amazing framework
-- Material Design team for the design system
-- Riverpod for excellent state management
-- Firebase for backend services
+- Đội ngũ Flutter vì framework tuyệt vời
+- Đội ngũ Material Design vì hệ thống thiết kế
+- Riverpod vì quản lý state xuất sắc
+- Firebase vì các dịch vụ backend
 
 ---
 
-**⭐ If you found this project helpful, please consider giving it a star!**
+**⭐ Nếu bạn thấy dự án này hữu ích, hãy cho một ngôi sao nhé!**
